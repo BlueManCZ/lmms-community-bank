@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project type="instrumenttracksettings" creatorversion="1.2.2" version="1.0" creator="LMMS">
+  <head/>
+  <instrumenttracksettings type="0" muted="0" solo="0" name="BlueManCZ - Electronic piano">
+    <instrumenttrack pan="0" pitchrange="1" fxch="0" usemasterpitch="1" basenote="57" vol="100" pitch="0">
+      <instrument name="OPL2">
+        <OPL2 op2_vib="0" op2_scale="3" op1_lvl="41" op1_d="4" op1_trem="0" op2_mul="1" op2_d="11" op2_r="12" op1_vib="0" op1_s="12" op2_lvl="40" op1_ksr="1" op1_r="15" op2_perc="0" feedback="4" fm="1" op2_a="8" op1_scale="2" op1_a="6" op1_waveform="0" op2_s="10" op2_ksr="1" op1_mul="2" op2_waveform="0" trem_depth="0" op1_perc="0" op2_trem="0" vib_depth="0"/>
+      </instrument>
+      <eldata fwet="0" ftype="0" fres="0.5" fcut="14000">
+        <elvol x100="0" lpdel="0" userwavefile="" lshp="0" pdel="0" sustain="0.5" ctlenvamt="0" dec="0.5" amt="0" latt="0" lamt="0" lspd_denominator="4" lspd_syncmode="0" rel="0.1" lspd="0.1" att="0" hold="0.5" lspd_numerator="4"/>
+        <elcut x100="0" lpdel="0" userwavefile="" lshp="0" pdel="0" sustain="0.5" ctlenvamt="0" dec="0.5" amt="0" latt="0" lamt="0" lspd_denominator="4" lspd_syncmode="0" rel="0.1" lspd="0.1" att="0" hold="0.5" lspd_numerator="4"/>
+        <elres x100="0" lpdel="0" userwavefile="" lshp="0" pdel="0" sustain="0.5" ctlenvamt="0" dec="0.5" amt="0" latt="0" lamt="0" lspd_denominator="4" lspd_syncmode="0" rel="0.1" lspd="0.1" att="0" hold="0.5" lspd_numerator="4"/>
+      </eldata>
+      <chordcreator chord-enabled="0" chordrange="2" chord="0"/>
+      <arpeggiator arpcycle="0" arp-enabled="0" arprange="1" arpmiss="0" arp="0" arpgate="100" arpdir="0" arptime_syncmode="0" arptime_denominator="4" arpskip="0" arpmode="0" arptime_numerator="4" arptime="100"/>
+      <midiport fixedinputvelocity="-1" outputprogram="1" fixedoutputnote="-1" basevelocity="63" fixedoutputvelocity="-1" readable="0" inputchannel="0" writable="0" outputchannel="1" outputcontroller="0" inputcontroller="0"/>
+      <fxchain numofeffects="3" enabled="1">
+        <effect gate="0" autoquit="1" wet="1" autoquit_numerator="4" autoquit_syncmode="0" on="1" autoquit_denominator="4" name="stereoenhancer">
+          <stereoenhancercontrols width="180"/>
+          <key/>
+        </effect>
+        <effect gate="0" autoquit="1" wet="1" autoquit_numerator="4" autoquit_syncmode="0" on="1" autoquit_denominator="4" name="amplifier">
+          <AmplifierControls volume="200" pan="0" left="100" right="100"/>
+          <key/>
+        </effect>
+        <effect gate="0" autoquit="1" wet="1" autoquit_numerator="4" autoquit_syncmode="0" on="1" autoquit_denominator="4" name="ladspaeffect">
+          <ladspacontrols ports="6">
+            <port04 data="1"/>
+            <port05 data="0.57499999"/>
+            <port06>
+              <data scale_type="log" id="6356967" value="0"/>
+            </port06>
+            <port07>
+              <data scale_type="log" id="5457884" value="0"/>
+            </port07>
+            <port08>
+              <data scale_type="log" id="6401785" value="1"/>
+            </port08>
+            <port09 data="1"/>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="cmt"/>
+            <attribute name="plugin" value="freeverb3"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

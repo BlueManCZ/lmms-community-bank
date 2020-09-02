@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project type="instrumenttracksettings" creatorversion="1.2.2" version="1.0" creator="LMMS">
+  <head/>
+  <instrumenttracksettings type="0" muted="0" solo="0" name="Andrea - The first stone">
+    <instrumenttrack pan="0" pitchrange="1" fxch="0" usemasterpitch="1" basenote="59" vol="100" pitch="-100">
+      <instrument name="tripleoscillator">
+        <tripleoscillator finel1="2" modalgo1="2" userwavefile0="" stphdetun2="0" vol1="33" coarse0="3" modalgo2="2" userwavefile1="" finel2="-2" vol0="0" stphdetun1="0" finer2="0" wavetype2="5" wavetype1="5" pan1="0" coarse2="3" finel0="0" phoffset1="0" pan0="0" phoffset2="0" stphdetun0="0" finer0="0" wavetype0="4" coarse1="3" vol2="33" pan2="0" phoffset0="0" userwavefile2="" finer1="0" modalgo3="2"/>
+      </instrument>
+      <eldata fwet="1" ftype="11" fres="0.5" fcut="14000">
+        <elvol x100="0" lpdel="0" userwavefile="" lshp="0" pdel="0" sustain="0" ctlenvamt="0" dec="0.31999999" amt="1" latt="0" lamt="0" lspd_denominator="4" lspd_syncmode="0" rel="0.35100001" lspd="0.0295" att="0.089000002" hold="0" lspd_numerator="4"/>
+        <elcut x100="0" lpdel="0" userwavefile="" lshp="0" pdel="0" sustain="0.5" ctlenvamt="0" dec="0.5" amt="0" latt="0" lamt="0" lspd_denominator="4" lspd_syncmode="0" rel="0.1" lspd="0.1997" att="0" hold="0.5" lspd_numerator="4"/>
+        <elres x100="0" lpdel="0" userwavefile="" lshp="0" pdel="0" sustain="0.17399999" ctlenvamt="0" dec="0.89700001" amt="1" latt="0" lamt="0" lspd_denominator="4" lspd_syncmode="0" rel="1.148" lspd="0.1" att="0.043000001" hold="0.77499998" lspd_numerator="4"/>
+      </eldata>
+      <chordcreator chord-enabled="0" chordrange="1" chord="0"/>
+      <arpeggiator arpcycle="0" arp-enabled="0" arprange="1" arpmiss="0" arp="0" arpgate="100" arpdir="0" arptime_syncmode="0" arptime_denominator="4" arpskip="0" arpmode="1" arptime_numerator="4" arptime="100"/>
+      <midiport fixedinputvelocity="-1" outputprogram="1" fixedoutputnote="-1" basevelocity="63" fixedoutputvelocity="-1" readable="0" inputchannel="0" writable="0" outputchannel="1" outputcontroller="0" inputcontroller="0"/>
+      <fxchain numofeffects="3" enabled="1">
+        <effect gate="0" autoquit="1" wet="1" autoquit_numerator="4" autoquit_syncmode="0" on="1" autoquit_denominator="4" name="ladspaeffect">
+          <ladspacontrols ports="6">
+            <port04 data="0"/>
+            <port05 data="1"/>
+            <port06>
+              <data scale_type="log" id="2808984" value="0"/>
+            </port06>
+            <port07>
+              <data scale_type="log" id="4625943" value="0"/>
+            </port07>
+            <port08>
+              <data scale_type="log" id="8175208" value="1"/>
+            </port08>
+            <port09 data="0.5"/>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="cmt"/>
+            <attribute name="plugin" value="freeverb3"/>
+          </key>
+        </effect>
+        <effect gate="0" autoquit="1" wet="0.59999996" autoquit_numerator="4" autoquit_syncmode="0" on="1" autoquit_denominator="4" name="ladspaeffect">
+          <ladspacontrols ports="5">
+            <port04 data_numerator="4" data="259.70001" data_denominator="4" data_syncmode="0"/>
+            <port05 data="0.86000001"/>
+            <port06 data_numerator="4" data="279.29999" data_denominator="4" data_syncmode="0"/>
+            <port07 data="0.76999998"/>
+            <port08 data="1443.46"/>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="cmt"/>
+            <attribute name="plugin" value="canyon_delay"/>
+          </key>
+        </effect>
+        <effect gate="0" autoquit="1" wet="1" autoquit_numerator="4" autoquit_syncmode="0" on="1" autoquit_denominator="4" name="dualfilter">
+          <DualFilterControls gain1="44.799999" enabled2="1" gain2="38.599998" filter2="1" res2="1.4299999" cut1="1702" enabled1="1" mix="-0.0099999998" cut2="2029" res1="1.8099999" filter1="7"/>
+          <key/>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>
