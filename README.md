@@ -1,4 +1,4 @@
-# lmms-community-bank
+# LMMS Community Bank
 
 <img src="http://lcb.webly3d.net/static/images/logo.png" width="128px">
 
