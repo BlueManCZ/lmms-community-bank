@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creatorversion="1.2.2" type="instrumenttracksettings" creator="LMMS" version="1.0">
+  <head/>
+  <instrumenttracksettings solo="0" type="0" muted="0" name="Andrea - Power chords">
+    <instrumenttrack pitchrange="1" usemasterpitch="1" pan="0" basenote="57" vol="100" fxch="0" pitch="0">
+      <instrument name="vibedstrings">
+        <vibedstrings active2="0" active8="0" active6="0" pan0="0" pick0="0" length1="1" version="0.1" length0="1" active1="1" impulse1="0" active5="0" slap0="0" detune0="0" pick1="0" graph0="m32sOimDhz0iEfg9ujQnPv5sRT65r1s+JflsPq9Dej6jHYM+JqmJPmIukj6ErZw+7uunPohesT5CM7g+PNe9PizNwz4Wv8w+MpfZPokX6j550P0+UVIJP7bOkL1Kwe28W+7CO0XTBz3bSlM9ytl1PRIBhz2HZKM9af7LPf5Q9j1+nA4+jlQhPsVDMj5KM0Q+p3tWPl7oZz4cJHw+n8KLPi5Dnj7vzbI+IozJPvUT3z6A2vM+5+QDPyZaDT8k3hY/3+kcP9QqIT8y1iM/fQAlP5r3JT8ibiw/vjkvPzUiMj/bKzo/Z/Q6P6atPD95OD0/6WFCPyP7SD+I6VI/k1ZfP/63Zz+UR3+/PAxyv1s4Z7+icV+/ldFavzmpVr90ZU+/yRdLv8/hR7+23EO/Wzg/vxmvOL/yGTS/Y2syv0YpMb+2/i6/664ov4t4Hr/s8RG/h6MDv6f05r4Yh8m+eeWwvqb1mr5Bh4q+xedovmNURL6hxi2+oiUevjaRDL4+5fS9QiDavUqe172YP9i9dfzSvXbR172FDde9uiDTvT5X0L3BiKW9Cm0VvZ3hkzyCXaA9RmoCv7++6r7+09a+T2rDvoJ6t75E/6++22Oovpi+pb74SKG+GpmYvjOmkL7Qr4q+jDyEviqJgb64RoK+zBuAvqAvdr4gs1S+iI8ivrfVpL0=" octave1="1" active7="0" active4="0" active0="1" impulse0="0" pan1="0" volume1="100" pickup0="0.050000001" stiffness0="0" active3="0" pickup1="0.050000001" slap1="0" graph1="m32sOimDhz0iEfg9ujQnPv5sRT65r1s+JflsPq9Dej6jHYM+JqmJPmIukj6ErZw+7uunPohesT5CM7g+PNe9PizNwz4Wv8w+MpfZPokX6j550P0+UVIJP7bOkL1Kwe28W+7CO0XTBz3bSlM9ytl1PRIBhz2HZKM9af7LPf5Q9j1+nA4+jlQhPsVDMj5KM0Q+p3tWPl7oZz4cJHw+n8KLPi5Dnj7vzbI+IozJPvUT3z6A2vM+5+QDPyZaDT8k3hY/3+kcP9QqIT8y1iM/fQAlP5r3JT8ibiw/vjkvPzUiMj/bKzo/Z/Q6P6atPD95OD0/6WFCPyP7SD+I6VI/k1ZfP/63Zz+UR3+/PAxyv1s4Z7+icV+/ldFavzmpVr90ZU+/yRdLv8/hR7+23EO/Wzg/vxmvOL/yGTS/Y2syv0YpMb+2/i6/664ov4t4Hr/s8RG/h6MDv6f05r4Yh8m+eeWwvqb1mr5Bh4q+xedovmNURL6hxi2+oiUevjaRDL4+5fS9QiDavUqe172YP9i9dfzSvXbR172FDde9uiDTvT5X0L3BiKW9Cm0VvZ3hkzyCXaA9RmoCv7++6r7+09a+T2rDvoJ6t75E/6++22Oovpi+pb74SKG+GpmYvjOmkL7Qr4q+jDyEviqJgb64RoK+zBuAvqAvdr4gs1S+iI8ivrfVpL0=" octave0="0" volume0="200" detune1="0" stiffness1="0"/>
+      </instrument>
+      <eldata ftype="0" fres="0.5" fcut="14000" fwet="0">
+        <elvol x100="0" amt="1" pdel="0" lspd_denominator="4" latt="0" userwavefile="" rel="0.1" hold="0.5" sustain="0.5" lspd="0.1" lpdel="0" ctlenvamt="1" dec="0.5" att="0" lamt="0" lspd_syncmode="0" lshp="0" lspd_numerator="4"/>
+        <elcut x100="0" amt="0" pdel="0" lspd_denominator="4" latt="0" userwavefile="" rel="0.1" hold="0.5" sustain="0.5" lspd="0.1" lpdel="0" ctlenvamt="0" dec="0.5" att="0" lamt="0" lspd_syncmode="0" lshp="0" lspd_numerator="4"/>
+        <elres x100="0" amt="0" pdel="0" lspd_denominator="4" latt="0" userwavefile="" rel="0.1" hold="0.5" sustain="0.5" lspd="0.1" lpdel="0" ctlenvamt="0" dec="0.5" att="0" lamt="0" lspd_syncmode="0" lshp="0" lspd_numerator="4"/>
+      </eldata>
+      <chordcreator chordrange="2" chord-enabled="1" chord="92"/>
+      <arpeggiator arprange="1" arptime_syncmode="0" arpgate="100" arp="0" arptime_denominator="4" arpcycle="0" arptime="100" arpmode="0" arp-enabled="0" arptime_numerator="4" arpskip="0" arpdir="0" arpmiss="0"/>
+      <midiport inputcontroller="0" basevelocity="63" inputchannel="0" writable="0" fixedoutputnote="-1" fixedinputvelocity="-1" outputprogram="1" outputchannel="1" fixedoutputvelocity="-1" readable="0" outputcontroller="0"/>
+      <fxchain enabled="1" numofeffects="2">
+        <effect on="1" autoquit="1" autoquit_numerator="4" gate="0" name="dualfilter" autoquit_denominator="4" wet="1" autoquit_syncmode="0">
+          <DualFilterControls enabled1="1" cut1="7000" cut2="7000" mix="0" gain2="100" res1="0.5" gain1="100" filter2="0" res2="0.5" filter1="0" enabled2="1"/>
+          <key/>
+        </effect>
+        <effect autoquit="1" on="1" autoquit_numerator="4" gate="0" syncmode="0" name="ladspaeffect" autoquit_denominator="4" wet="1" autoquit_syncmode="0">
+          <ladspacontrols ports="9">
+            <port07>
+              <data scale_type="log" value="3.27588" id="2449646"/>
+            </port07>
+            <port08>
+              <data scale_type="log" value="6324.75" id="5192237"/>
+            </port08>
+            <port09 data="1"/>
+            <port010 data="0.69"/>
+            <port011 data="0.3"/>
+            <port012 data="1"/>
+            <port013 data="5"/>
+            <port014>
+              <data scale_type="log" value="631.867" id="3206744"/>
+            </port014>
+            <port015>
+              <data scale_type="log" value="3556.44" id="1158792"/>
+            </port015>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="calf"/>
+            <attribute name="plugin" value="Reverb"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>
